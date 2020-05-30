@@ -1,0 +1,97 @@
+{
+    "backgroundColor": {
+      "type": "colorpicker",
+      "label": "Background color",
+      "value": "rgb(38, 41, 41)"
+    },
+    "borderColor": {
+      "type": "colorpicker",
+      "label": "Border color",
+      "value": "rgb(0, 255, 0)"
+    },
+    "iconColor": {
+      "type": "colorpicker",
+      "label": "Icon color",
+      "value": "rgb(0, 255, 0)"
+    },
+    "detailColor": {
+      "type": "colorpicker",
+      "label": "Detail color",
+      "value": "rgb(209, 209, 209)"
+    },
+    "titleColor": {
+      "type": "colorpicker",
+      "label": "Title color",
+      "value": "rgb(0, 255, 0)"
+    },
+    "titleShadow": {
+      "type": "colorpicker",
+      "label": "Title shadow color",
+      "value": "rgb(0, 136, 0)"
+    },
+    "showFollowers": {
+      "type": "dropdown",
+      "label": "Display followers:",
+      "value": "yes",
+      "options": {
+        "yes": "Yes",
+        "no": "No"
+      }
+    },
+    "showSubscriptions": {
+      "type": "dropdown",
+      "label": "Display subscriptions:",
+      "value": "yes",
+      "options": {
+        "yes": "Yes",
+        "no": "No"
+      }
+    },
+    "showDonations": {
+      "type": "dropdown",
+      "label": "Display donations:",
+      "value": "yes",
+      "options": {
+        "yes": "Yes",
+        "no": "No"
+      }
+    },
+    "showBits": {
+      "type": "dropdown",
+      "label": "Display bits:",
+      "value": "yes",
+      "options": {
+        "yes": "Yes",
+        "no": "No"
+      }
+    },
+    "showHosts": {
+      "type": "dropdown",
+      "label": "Display hosts:",
+      "value": "no",
+      "options": {
+        "yes": "Yes",
+        "no": "No"
+      }
+    },
+    "shownDuration": {
+      "type": "number",
+      "label": "Display duration (ms):",
+      "value": 10000
+    },
+    "hiddenDuration": {
+      "type": "number",
+      "label": "Hidden duration (ms):",
+      "value": 1000
+    },
+    "fadeInDuration": {
+      "type": "number",
+      "label": "Fade in duration (ms):",
+      "value": 250
+    },
+    "fadeOutDuration": {
+      "type": "number",
+      "label": "Fade out duration (ms):",
+      "value": 250
+    }
+  }

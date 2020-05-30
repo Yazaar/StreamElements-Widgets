@@ -1,0 +1,70 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    display: flex;
+    height: 100%;
+    box-sizing: border-box;
+    background: {{backgroundColor}};
+    border: 3vh solid {{borderColor}};
+    border-radius: 10vh;
+    overflow: hidden;
+}
+
+#left {
+    margin: 0 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left svg {
+    font-size: 45vh;
+    color: {{iconColor}};
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#title {
+    color: {{titleColor}};
+    text-shadow: -.4vh -.4vh 0 {{titleShadow}}, -.6vh -.6vh .5vh {{titleShadow}}, -.8vh -.8vh .5vh {{titleShadow}}, -1vh -1vh 0 {{titleShadow}};
+    font-size: 20vh;
+    white-space: nowrap;
+}
+
+#detail {
+    font-size: 30vh;
+    color: {{detailColor}};
+    white-space: nowrap;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(.75);
+    }
+  
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+  
+    100% {
+        opacity: 0;
+        transform: scale(.75);
+    }
+}
