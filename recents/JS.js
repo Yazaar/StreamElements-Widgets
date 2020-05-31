@@ -118,6 +118,7 @@ window.addEventListener('onWidgetLoad', function (obj) {
     }
 
     if (obj.detail.session.data['raid-recent'].length === 0 && obj.detail.session.data['host-recent'].length === 0) {
+        hideText();
         return;
     } else if (obj.detail.session.data['raid-recent'].length === 0) {
         var hostTime = new Date(obj.detail.session.data['host-recent'][0].createdAt);
