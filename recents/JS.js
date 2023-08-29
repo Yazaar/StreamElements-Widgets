@@ -6,7 +6,7 @@ var currencySymbol;
 
 var latest = {
     host: {
-        title: 'recent host',
+        title: 'recent raid',
         detail: 'no data',
         icon: 'share-alt'
     },
