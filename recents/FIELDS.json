@@ -67,7 +67,7 @@
     },
     "showHosts": {
       "type": "dropdown",
-      "label": "Display hosts:",
+      "label": "Display raids:",
       "value": "no",
       "options": {
         "yes": "Yes",
